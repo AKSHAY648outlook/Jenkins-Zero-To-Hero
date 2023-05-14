@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: akshaybansod/ultimate-ci-cd
+        image: akshaybansod/ultimate-ci-cd:tagname
         ports:
         - containerPort: 8080
